@@ -18,13 +18,10 @@
             </div>
          </div>
       </nav>
-      <!-- Page Content-->
-
-
-      <!-- Heading Row-->
+      
       <div class="row gx-4 gx-lg-5 align-items-center my-5">
          <div class="col-lg-7">
-             <img class="img-fluid rounded mb-4 mb-lg-0" src="img/logoferia.jpg" alt="Feria libre Delivery" />
+             <img class="img-fluid rounded mb-4 mb-lg-0" src="img/logoferia.jpg" alt="Feria libre delivery" />
         </div>
         <div class="col-lg-5">
             <h1 class="font-weight-light">Somos el mejor servicio Delivery de Frutas y Verduras</h1>
@@ -71,8 +68,6 @@
          </div>
       </div>
       <hr>
-
-
       <!-- SECCION DE VIDEO Y FORMULARIO DE CONTACTO -->
       <div class="row">
         <div class="col-lg-6">
@@ -106,18 +101,99 @@
                     <input type="text" class="form-control" id="direccion" placeholder="Calle de las flores" required="">
                 </div>
                 </div>
+                <button class="w-100 btn btn-primary btn-lg mt-2" onclick="validar();" >Enviar información</button>
             </form>
         </div>
       </div>
+
+      <!-- SECCION DE TESTIMONIOS -->
+      <div class="container my-5 justify-content-center">
+        <div class=" row justify-content-center ">
+            <div class="col-lg-6 col-12 mt-5 ">
+                <div class="card mt-3 ">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <div class="card-header text-center border-0">
+                            <div class="row justify-content-center my-4">
+                                <div class="col">
+                                    <div class="d-flex flex-lg-row flex-column-reverse no-gutters justify-content-center">
+                                        <div class="col-3 text-right"><img class="img-fluid" id="quotes" src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png" alt="Comillas" width="110" height="110"></div>
+                                        <div class="col pr-lg-5"><img class=" img-1 mr-lg-5 " src="http://www.periodismo.uchile.cl/talleres/fotografia/galeria/veram/fotos/02g.jpg" alt="Feriante de la vega"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center pb-3 ">
+                            <div class="row justify-content-center">
+                                <div class="col text-center justify-content-center ">
+                                    <p class="bold text-center px-md-3"> El feriante siempre ha sido primera línea, siempre. Usted le pide cooperación a algún feriante está dispuesto (…) ganamos poco y el corazón es grande.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-auto mb-4">
+                        <div class="card-footer text-center border-0 mt-0 pt-0 mb-3">
+                            <div class="row text-center name mt-auto ">
+                                <div class="col">
+                                    <h4 class="mb-0 Elizabeth">Juan Pablo Rivera</h4> <small class="mt-0 text-white">Vendedor de la Feria</small>
+                                    <p><span class="fa fa-star text-warning mr-1"></span><span class="fa fa-star text-warning mr-1"></span><span class="fa fa-star text-warning mr-1"></span><span class="fa fa-star-half-o text-warning mr-1"></span><span class="fa fa-star-o text-warning mr-1"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 mt-5 ">
+                <div class="card mt-3 ">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <div class="card-header text-center border-0">
+                            <div class="row justify-content-center my-4">
+                                <div class="col">
+                                    <div class="d-flex flex-lg-row flex-column-reverse no-gutters justify-content-center">
+                                        <div class="col-3 text-right"><img class="img-fluid" id="quotes2" src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png" alt="Comillas" width="110" height="110"></div>
+                                        <div class="col pr-lg-5"><img class=" img-1 mr-lg-5 " src="http://www.periodismo.uchile.cl/talleres/fotografia/galeria/veram/fotos/09g.jpg" alt="Feriante de la vega"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center pb-3 ">
+                            <div class="row justify-content-center">
+                                <div class="col text-center justify-content-center ">
+                                    <p class="bold text-center px-md-3"> Soy feriante desde octubre del año pasado. Yo conocí la feria y empecé a venir por quedarme sin trabajo por la pandemia y decidí conformarme como trabajador independiente.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-auto mb-4">
+                        <div class="card-footer text-center border-0 mt-0 pt-0 mb-3">
+                            <div class="row text-center name mt-auto ">
+                                <div class="col">
+                                    <h4 class="mb-0 Elizabeth">Ramón Villagra</h4> <small class="mt-0 text-white">Vendedor de frutos secos</small>
+                                    <p><span class="fa fa-star text-warning mr-1"></span><span class="fa fa-star text-warning mr-1"></span><span class="fa fa-star-o text-warning mr-1"></span><span class="fa fa-star-o text-warning mr-1"></span><span class="fa fa-star-o text-warning mr-1"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
       <!-- Footer-->
       <footer class="py-5 bg-dark">
          <div class="container px-4 px-lg-5">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p>
+            <p class="m-0 text-center text-white">Copyright &copy; Feria Libre 2021</p>
          </div>
       </footer>
-      <!-- Bootstrap core JS-->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+      
+
+     <!-- Bootstrap core JS-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
       <!-- Core theme JS-->
-      <script src="js/scripts.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/localization/messages_es.min.js" integrity="sha512-Ou4GV0BYVfilQlKiSHUNrsoL1nznkcZ0ljccGeWYSaK2CaVzof2XaZ5VEm5/yE/2hkzjxZngQHVwNUiIRE8yLw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/scripts.js"></script>
+
     </body>
 </html>
